@@ -8,7 +8,7 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-# you are allowed to import other Python packages above
+
 ##########################
 def coinCount(coinMat, i):
     # Inputs
@@ -19,8 +19,7 @@ def coinCount(coinMat, i):
     # ans: Total value of the coins in the image, in float type
     #
     #########################################################################
-    # ADD YOUR CODE BELOW THIS LINE
-    
+  
     rgbImg=coinMat[:,:,:,i]
     grayImg = cv2.cvtColor(rgbImg, cv2.COLOR_RGB2GRAY)
     
@@ -77,6 +76,5 @@ def coinCount(coinMat, i):
     ans=total
     
     
-    # END OF YOUR CODE
     #########################################################################
     return round(ans, 2)
