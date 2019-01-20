@@ -1,8 +1,6 @@
 """
 coinCounting.py
 
-YOUR WORKING FUNCTION
-
 """
 import numpy as np
 import cv2
