@@ -1,5 +1,5 @@
 # Malaysian-Coin-Analysis
-To obtain value of coins in an image containing Malaysian coins
+To obtain value of coins in an image containing Malaysian coins.
 
 On command prompt:
 To evaluate image number 10 in default coin set (coinset1.pkl)
